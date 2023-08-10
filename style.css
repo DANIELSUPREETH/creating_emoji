@@ -1,0 +1,101 @@
+@import url(https://fonts.google.com/specimen/Cormorant+Garamond);
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+body{
+    background-color: lightyellow;
+}
+.emoji-face{
+    background-color:rgb(249, 170, 67);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow:2px 0px 2px rgba(0,0,0,0.07);
+    position: relative;
+}
+.eye1{
+    background-color:brown;
+    height:11px ;
+    width: 12px;
+    border-radius:50% ;
+    position:absolute ;
+    top: 30px;
+    left: 20px ;
+}
+.eye2{
+    background-color:brown;
+    height:11px ;
+    width: 12px;
+    border-radius:50% ;
+    position:absolute ;
+    top: 30px;
+    left: 65px;
+}
+.mouth{
+    background-color:brown;
+    height:34px ;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position:absolute ;
+    top: 52px;
+    left: 16px;
+    z-index: 1;
+    overflow: hidden;
+}
+.tongue{
+    background-color:#e25d5d;
+    width: 38px;
+    height: 38px;
+    border-radius: 40%;
+    position:absolute ;
+    top: 20px;
+    left: 15px;
+    z-index: 2;
+}
+.mouth-shock{
+    background-color: brown;
+    height: 27%;
+    width: 26%;
+    border-radius:50% ;
+    position: absolute;
+    top: 50%;
+    left: 36%;
+}
+.mouth-speechless{
+    background-color: brown;
+    height:5px ;
+    width: 65%;
+    position: absolute;
+    top: 60px;
+    left: 17px;
+}
+.emoji-face{
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+.wrapper{
+    position: absolute;
+    top: 130px;
+    left: 450px;
+}
+#heading{
+    text-align: center;
+    font-size: 4em;
+
+}
+h1{
+    font-size: 2em;
+}
+p{ font-size: 1.5em;
+}
+.emoji-face:hover{ background-color: burlywood;
+transform:scale(1.25);
+}
+.write-up{
+    background-color: goldenrod;
+    padding:5% 10%;
+    margin: 10% 20%;
+    text-align: center;
+    border-radius:20px;
+}
